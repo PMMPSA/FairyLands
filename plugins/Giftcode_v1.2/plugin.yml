@@ -1,0 +1,9 @@
+name: Giftcode
+main: giftcode\Giftcode
+version: 1.2beta1
+api: 3.0.0-ALPHA9
+commands: 
+  code:
+   description: redeem giftcode
+  taocode:
+    description: generate giftcode(OP only)

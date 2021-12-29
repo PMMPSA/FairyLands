@@ -1,0 +1,63 @@
+---
+################################################################
+#                                                              #
+#   ____        __  __                                         #
+#  / __ \      |  \/  |                                        #
+# | |  | |_ __ | \  / | __ _ _ __   __ _  __ _  ___ _ __       #
+# | |  | | '_ \| |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '__|      #
+# | |__| | |_) | |  | | (_| | | | | (_| | (_| |  __/ |         #  
+#  \____/| .__/|_|  |_|\__,_|_| |_|\__,_|\__, |\___|_|         #
+#        | |                              __/ |                #
+#        |_|                             |___/                 #
+#                                                              #
+# OpManager is Soon Number #1 Op Managment Plugin              #
+#                                                              #
+################################################################
+#
+#
+#Customize Messages When A Command Is Disabled
+#
+# To use color in your text use the $ symbol and mcpe color codes
+# Customize Prefix
+Prefix: "$7$R[$L$eOp$7-$3Manager$7]$R"
+#
+#Customize the message when stop command is disabled
+#
+DisableStopCommand: "$cSorry Stop Command is Disabled"
+#
+#Customize the message when say command is disabled
+#
+DisableSayCommand: "$cSorry Say Command is Disabled"
+#
+#Customize the message when Ban-Ip command is disabled
+#
+DisableBanipCommand: "$cSorry Ban-Ip Command is Disabled"
+#
+#Customize the message when Whitelist command is disabled
+#
+DisableWhitelistCommand: "$cSorry Whitelist Command is Disabled"
+#
+#Customize the message when Kill command is disabled
+#
+DisableKillCommand: "$cSorry Kill Command is Disabled"
+#
+#Customize the message when Time command is disabled
+#
+DisableTimeCommand: "$cSorry Time Command is Disabled"
+#
+#Customize the message when Op command is disabled
+#
+DisableOpCommand: "$cSorry Op Command is Disabled"
+#
+#Customize the message when Deop command is disabled
+#
+DisableDeopCommand: "$cSorry Deop Command is Disabled"
+#
+#Customize the message when tp command is disabled
+#
+DisableTpCommand: "$cSorry tp Command is Disabled"
+#
+#Customize the message when me command is disabled
+#
+DisableMeCommand: "$cSorry me Command is Disabled"
+...

@@ -1,0 +1,154 @@
+---
+Guest:
+  alias: gst
+  inheritance: []
+  permissions:
+  - esentials.warps.*
+  - essentials.kit
+  - essentials.kit.other
+  - essentials.warp.use
+  - essentials.warps.hub
+  - essentials.warps.sb
+  - mw.cmd.tp
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pocketmine.command.me
+  - pocketmine.command.warp.*
+  - pperms.command.ppinfo
+  - simplewarp.warp.*
+  worlds: []
+  isDefault: true
+Admin:
+  alias: adm
+  inheritance:
+  - Guest
+  permissions:
+  - essentials.gamemode
+  - pocketmine.blah
+  - pocketmine.broadcast
+  - pocketmine.command.gamemode
+  - pocketmine.command.give
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  worlds: []
+Owner:
+  alias: owr
+  inheritance:
+  - Admin
+  permissions:
+  - essentials
+  - pocketmine.blah
+  - pocketmine.command
+  - pperms.command
+  worlds: []
+vip1:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.fly
+  - pocketmine.command.teleport
+  worlds: []
+vip2:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.fly
+  - pocketmine.command.teleport
+  worlds: []
+vip3:
+  alias: ""
+  inheritance: []
+  permissions:
+  - enes5519.colorfularmor
+  - essentials.fly
+  - pocketmine.command.teleport
+  worlds: []
+vip4:
+  alias: ""
+  inheritance: []
+  permissions:
+  - enes5519.colorfularmor
+  - essentials.fly
+  - pocketmine.command.teleport
+  worlds: []
+vip5:
+  alias: ""
+  inheritance: []
+  permissions:
+  - enes5519.colorfularmor
+  - essentials.fly
+  - pocketmine.command.teleport
+  - size.other
+  worlds: []
+vip6:
+  alias: ""
+  inheritance: []
+  permissions:
+  - enes5519.colorfularmor
+  - essentials.fly
+  - pocketmine.command.teleport
+  - size.other
+  worlds: []
+Police:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.fly
+  - mw.cmd.tp
+  - pocketmine.command.ban
+  - pocketmine.command.ban.ip
+  - pocketmine.command.ban.player
+  - pocketmine.command.teleport
+  - pocketmine.command.unban
+  - pocketmine.command.unban.ip
+  - pocketmine.command.unban.player
+  - pperms.command.tp
+  worlds: []
+Helper:
+  alias: ""
+  inheritance: []
+  permissions:
+  - "\x16essential.warp"
+  - addcommand.warp
+  - essentials.fly
+  - mw.cmd.tp
+  - pocketmine.command.teleport
+  - pocketmine.command.warp
+  - pocketmine.command.warp*
+  - pocketmine.command.warp.*
+  - pperms
+  - pperms.command.warp
+  - simplewarp.warp.*
+  worlds: []
+Youtube:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.fly
+  - pocketmine.command.teleport
+  worlds: []
+Builder:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.fly
+  - mw.cmd.tp
+  - pocketmine.command.gamemode
+  - pocketmine.command.give
+  - pocketmine.command.teleport
+  worlds: []
+PMem:
+  alias: ""
+  inheritance: []
+  permissions:
+  - essentials.fly
+  - pocketmine.command.teleport
+  worlds: []
+Manager:
+  alias: ""
+  inheritance: []
+  permissions: []
+  worlds: []
+...

@@ -1,0 +1,6 @@
+# Updated 11/27/17 10:55 by GenisysPro 1.1dev
+# victim name | ban date | banned by | banned until | reason
+
+pory|2017-11-27 10:14:32 +0000|CONSOLE|Forever|Banned by an operator.
+porry|2017-11-27 10:14:49 +0000|CONSOLE|Forever|Banned by an operator.
+kiet_tran|2017-11-27 10:55:20 +0000|Minh1999|Forever|Banned by an operator.

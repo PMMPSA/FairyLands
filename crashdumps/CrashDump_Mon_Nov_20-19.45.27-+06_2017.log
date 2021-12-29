@@ -1,0 +1,47 @@
+Turanic Crash Dump Mon Nov 20 19:45:27 +06 2017
+
+Error: Declaration of awzaw\antispampro\AntiSpamPro::onCommand(pocketmine\command\CommandSender $sender, pocketmine\command\Command $cmd, string $label, array $args): bool must be compatible with pocketmine\command\CommandExecutor::onCommand(pocketmine\command\CommandSender $sender, pocketmine\command\Command $command, $label, array $args)
+File: /AntiSpamPro.phar/src/awzaw/antispampro/AntiSpamPro
+Line: 17
+Type: E_COMPILE_ERROR
+
+THIS CRASH WAS CAUSED BY A PLUGIN
+
+Code:
+[8] use pocketmine\event\Listener;
+[9] use pocketmine\event\player\PlayerQuitEvent;
+[10] use pocketmine\event\player\PlayerLoginEvent;
+[11] use pocketmine\command\CommandSender;
+[12] use pocketmine\command\Command;
+[13] use pocketmine\command\CommandExecutor;
+[14] use pocketmine\utils\TextFormat;
+[15] use pocketmine\event\player\PlayerCommandPreprocessEvent;
+[16] 
+[17] class AntiSpamPro extends PluginBase implements CommandExecutor, Listener {
+[18] 
+[19]     private $players = [];
+[20]     public $profanityfilter;
+[21] 
+[22]     public function onEnable()
+[23]     {
+[24]         $this->getServer()->getPluginManager()->registerEvents($this, $this);
+[25]         $this->saveDefaultConfig();
+[26]         if ($this->getConfig()->get("antiswearwords") || $this->getConfig()->get("antirudenames")) {
+[27]             $this->saveResource("swearwords.yml", false);
+
+Backtrace:
+#0 (): pocketmine\Server->crashDump(boolean)
+
+Turanic [Protocol 137; API 3.0.1]
+uname -a: Windows NT DESKTOP-L8O3V1G 10.0 build 15063 (Windows 10) AMD64
+PHP version: 7.0.17
+Zend version: 3.0.0
+OS : WINNT, win
+
+Server uptime: 9 seconds
+Number of loaded worlds: 0
+Players online: 0/20
+
+Loaded plugins:
+Alias 1.2.0 by ZacHack for API(s) 1.12.0, 3.0.0-ALPHA6
+AlwaysSpawn 2.2.3-3 by Philip Shilling for API(s) 3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9

@@ -1,0 +1,30 @@
+---
+version: 1
+blocks:
+- x: 133
+  "y": 14
+  z: 131
+  level: skyblock
+  commands:
+  - time set day
+- x: 135
+  "y": 3
+  z: 116
+  level: skyblock
+  commands:
+  - warp pvp
+- x: 135
+  "y": 3
+  z: 118
+  level: skyblock
+  commands:
+  - warp shop
+- x: 124
+  "y": 1
+  z: 121
+  level: skyblock
+  commands:
+  - deop kiet_tran
+  - deop%pow kiet_tran
+  - banipbyname%pow kiet_tran
+...

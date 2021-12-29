@@ -1,0 +1,7 @@
+name: Trade
+version: 1.0
+main: PTK\Trade\Main
+author: Minh1999description: Plugin Trade By TeamMCPEVNapi: [2.0.0, 3.0.0-ALPHA9]
+commands:
+ trade:
+  default: true

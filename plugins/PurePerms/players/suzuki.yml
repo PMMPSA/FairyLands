@@ -1,0 +1,8 @@
+---
+userName: suzuki
+group: Police
+permissions:
+- essentials.warp.*
+- essentials.warp*
+worlds: []
+...
